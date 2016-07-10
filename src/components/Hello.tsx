@@ -11,15 +11,13 @@ export class Hello extends React.Component<HelloProps, HelloState> {
         setInterval(this.tick, 1000)
     }
 
-    tick = () => {
-        this.setState({ count: this.state.count + 1 })
-    }
+    tick = () => this.setState({ count: this.state.count + 1 })
 
     render() {
         return (
             <div>
                 <h1>And now Hello from {this.props.compiler} and {this.props.framework}!</h1>
-                You've starteded at this page for {this.state.count} seconds.
+                <p>You've stared at this page for {this.state.count} seconds&hellip;</p>
             </div>
         );
     }

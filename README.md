@@ -14,5 +14,4 @@ https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
 
 # Dev
 
-    npm i -g webpack-dev-server
-    webpack-dev-server
+    ./node_modules/.bin/webpack-dev-server --content-base public --inline --hot
