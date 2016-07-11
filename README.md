@@ -1,17 +1,21 @@
+# Typescript + React starter kit
 
-# Project layout
+A little starter project for Typescript and React
 
-Following the instructions from
-
+Based on instructions at
 https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
+
+# Global set up
+
+    npm install --global typescript typings webpack webpack-dev-server ts-loader source-map-loader
 
 # Build
 
-    npm i
-    npm link typescript
+    npm install
+    npm link ts-loader
     typings install
     webpack
 
 # Dev
 
-    ./node_modules/.bin/webpack-dev-server --content-base public --inline --hot
+    webpack-dev-server --content-base public --inline
