@@ -18,7 +18,7 @@ https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
 
 # Dev
 
-    webpack-dev-server --content-base public --inline
+    webpack-dev-server --content-base public --inline --hot
 
 # typings
 
