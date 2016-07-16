@@ -6,13 +6,13 @@ Based on instructions at
 https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
 
 # Global set up
-
-    npm install --global typescript@beta typings webpack webpack-dev-server ts-loader source-map-loader
+    
+    npm install --global typescript@beta typings webpack webpack-dev-server ts-loader source-map-loader colors
 
 # Build
 
     npm install
-    npm link ts-loader
+    npm link typescript webpack webpack-dev-server ts-loader source-map-loader colors
     typings install
     webpack
 
