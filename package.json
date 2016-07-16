@@ -1,7 +1,7 @@
 {
-  "name": "hi-ts-react",
+  "name": "typescript-react-kit",
   "version": "1.0.0",
-  "description": "Following the instructions from",
+  "description": "A starter kit",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,5 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "react": "15.2.1",
-    "react-dom": "15.2.1"
   }
 }
