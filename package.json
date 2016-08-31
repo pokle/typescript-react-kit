@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rm -rf public/dist && npm install && env NODE_ENV=production webpack -p",
     "start": "npm install && webpack-dev-server --content-base public --port 5000 --watch --inline",
-    "clean": "rm -rf public/dist && mkdir -p public/build"
+    "clean": "rm -rf public/dist && mkdir -p public/dist"
   },
   "keywords": [],
   "author": "Tushar Pokle",
@@ -19,6 +19,7 @@
   "devDependencies": {
     "colors": "1.1.2",
     "css-loader": "0.24.0",
+    "extract-text-webpack-plugin": "1.0.1",
     "node-sass": "3.8.0",
     "sass-loader": "4.0.0",
     "source-map-loader": "0.1.5",
