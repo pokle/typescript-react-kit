@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react';
 
 export interface HelloProps { compiler: string, framework: string }
 export interface HelloState { count: number }
@@ -16,7 +16,7 @@ export class Hello extends React.Component<HelloProps, HelloState> {
     render() {
         return (
             <div>
-                <h1>And now Hello from {this.props.compiler} and {this.props.framework}!</h1>
+                <h1>Hello frosdosm {this.props.compiler} and {this.props.framework}!</h1>
                 <p>You've stared at this page for {this.state.count} seconds&hellip;</p>
             </div>
         );

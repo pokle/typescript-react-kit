@@ -2,24 +2,14 @@
 
 A little starter project for Typescript and React
 
-Based on instructions at
-https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
-
-# Global set up
-    
-    npm install --global typescript@beta typings webpack webpack-dev-server ts-loader source-map-loader colors
-
-# Build
-
-    npm install
-    npm link typescript webpack webpack-dev-server ts-loader source-map-loader colors
-    typings install
-    webpack
-
 # Dev
 
-    webpack-dev-server --content-base public --inline --hot
+Open http://localhost:5000/ after starting live reloding in a terminal:
 
-# typings
+    npm start
 
-    typings install --global --save dt~lodash
+# Build and deploy
+
+    npm run build
+
+You can now deploy the contents of the `public/` directory
