@@ -1,12 +1,12 @@
 # Typescript + React starter kit
 
-A little starter project for Typescript and React
+A little starter kit for Typescript and React. To get started, clone a copy:
 
-# Dev
-
-Open http://localhost:5000/ after starting live reloding in a terminal:
-
+    git clone https://github.com/pokle/typescript-react-kit hi-typescript-and-react
+    cd hi-typescript-and-react
     npm start
+
+Open http://localhost:5000/ after you see the line `webpack: bundle is now VALID.`
 
 # Build and deploy
 
