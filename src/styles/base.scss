@@ -7,3 +7,12 @@
 h1,h2,h3,h4,h5,h6 {
     font-family: Helvetica, sans-serif;
 }
+
+div#app {
+    margin: 0 auto;
+    max-width: 600px;
+    min-height: 100vh;
+    background: lightgoldenrodyellow;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 4px 0px;
+}
