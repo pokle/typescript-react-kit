@@ -16,7 +16,7 @@ export class Hello extends React.Component<HelloProps, HelloState> {
     render() {
         return (
             <div>
-                <h1>Hello frosdosm {this.props.compiler} and {this.props.framework}!</h1>
+                <h1>Hello from {this.props.compiler} and {this.props.framework}!</h1>
                 <p>You've stared at this page for {this.state.count} seconds&hellip;</p>
             </div>
         );
